@@ -2,30 +2,32 @@
     font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
+    height: 97vh;
 }
 
 .signup-container {
-    width: 70%;
-    max-width: 1000px; 
+    width: 50%;
+    height: 70%;
     margin-top: 40px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
-    background-color: rgba(255, 254, 254, 0.609);
+    background-color: rgba(255, 254, 254, 0.831);
     padding: 20px;
     border-radius: 15px;
     display: flex; 
     flex-direction: column;
     align-items: center;
+    
+    
 }
 
 .inputs {
     display: flex;
     justify-content: space-between;
-    width: 100%; 
-    gap: 20px;/* Ensure it takes the full width of the container */
+    gap: 20px;
 }
 
 .col-1, .col-2 {
-    flex: 1; /* Each column takes equal width */
+    flex: 1; 
+    padding: 10px;
 }
 
 .input-group {
@@ -60,9 +62,16 @@
     display: flex;
     justify-content: center; /* Center the button */
 }
-
+.back-class{
+    display: flex;
+    justify-content:end;
+    gap: 20px;
+}
+.back-home{
+    cursor: pointer;
+}
 button {
-    background-color: #FF3F00;
+    background-color: #db0000cf;
     color: white;
     padding: 2px;
     border: none;
