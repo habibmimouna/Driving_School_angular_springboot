@@ -1,0 +1,39 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar {
+    background-color: white;
+    color: black;
+    
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    color: black;
+    margin-top: 7px;
+  }
+  
+  .navbar-nav {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .nav-item {
+    display: inline-block;
+    margin-right: 15px;
+  }
+  
+  .nav-link {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .nav-link:hover {
+    color: #ddd;
+  }
+  
+  .active {
+    font-weight: bold;
+  }
+  
