@@ -10,4 +10,12 @@ import { Router, RouterLink } from '@angular/router';
 })
 export class NavbarComponent {
 
+  ngOnInit(){
+    console.log(window.location.href);
+    if(window.URL){
+      console.log(window.URL);
+      
+    }
+  }
+
 }

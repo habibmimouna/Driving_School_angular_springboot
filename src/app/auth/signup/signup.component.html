@@ -1,6 +1,11 @@
 <div class="container">
+  <div class="navbar-brand" routerLink="/home">Roadwise Academy</div>
+  <div class="form-container">
   <form (ngSubmit)="onSubmit()" class="signup-container">
-    <h3>Welcome To Roadwise Academy</h3>
+    <div class="header">
+      <img class="header-img" src="../../../assets/logo.png" />
+      <h3>Welcome To Roadwise Academy</h3>
+    </div>
     <p>Please fill all cases carefully</p>
     <div class="inputs">
       <div class="col-1">
@@ -54,10 +59,11 @@
       <button type="submit">Sign up</button>
     </div>
     <div class="back-class">
-    <p class="signin-link">
-      Already have an account? <a routerLink="/auth/login">Log in</a>
-    </p>
-    <p routerLink="/home" class="back-home">Back Home </p>
-  </div>
+      <p class="signin-link">
+        Already have an account? <a routerLink="/auth/login">Log in</a>
+      </p>
+      <p routerLink="/home" class="back-home">Back Home</p>
+    </div>
   </form>
+</div>
 </div>

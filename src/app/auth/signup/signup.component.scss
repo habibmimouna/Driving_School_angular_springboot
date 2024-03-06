@@ -1,34 +1,59 @@
 .container {
-    font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
     height: 97vh;
 }
 
-.signup-container {
-    width: 50%;
-    height: 70%;
-    margin-top: 40px;
-    background-color: rgba(255, 254, 254, 0.831);
-    padding: 20px;
-    border-radius: 15px;
-    display: flex; 
-    flex-direction: column;
+.form-container {
+    display: flex;
+    justify-content: center;
     align-items: center;
-    
-    
 }
 
+.signup-container {
+    width: 45%;
+    height: 70%;
+    margin-top: 60px;
+    background-color: rgb(255, 254, 254);
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.navbar-brand {
+    font-size: 4vh;
+    color: white;
+    font-family: inter;
+    padding-top: 20px ;
+    padding-left: 20px;
+    cursor: pointer;
+
+}
+.header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header h3 {
+    font-family: inter;
+}
+
+.header-img {
+    width: 14vh;
+}
 .inputs {
     display: flex;
     justify-content: space-between;
-    gap: 20px;
+    gap: 60px;
 }
 
-.col-1, .col-2 {
-    flex: 1; 
-    padding: 10px;
+.col-1,
+.col-2 {
+    flex: 1;
+
 }
+
+
 
 .input-group {
     margin-bottom: 5px;
@@ -36,19 +61,21 @@
 
 .input-group label {
     display: block;
-    margin-bottom: 2px;
+    margin-top: 15px;
+
 }
 
 .input-group input {
-    width: 100%; 
+    width: 100%;
     padding: 10px;
-    border: 1px solid #ddd;
+    border: 0px;
+    height: 3vh;
+    border-bottom: 2px solid rgba(0, 51, 255, 0.702);
     outline: none;
-    border-radius: 4px;
-    height: 5vh;
 }
-.select-group select{
-    width: 100%; 
+
+.select-group select {
+    width: 100%;
     padding: 10px;
     border: 1px solid #ddd;
     outline: none;
@@ -58,20 +85,24 @@
 
 .submit-button-container {
     margin-top: 2vh;
-    width: 100%; /* Full width */
+    width: 100%;
     display: flex;
-    justify-content: center; /* Center the button */
+    justify-content: center;
 }
-.back-class{
+
+.back-class {
     display: flex;
-    justify-content:end;
+    justify-content: end;
     gap: 20px;
 }
-.back-home{
+
+.back-home {
     cursor: pointer;
 }
+
 button {
-    background-color: #db0000cf;
+    background-color: rgba(26, 26, 220, 0.768);
+    box-shadow: rgba(0, 51, 255, 0.613) 0px 2px 4px, rgba(0, 51, 255, 0.474) 0px 7px 13px -3px, rgba(0, 51, 255, 0.531) 0px -3px 0px inset;
     color: white;
     padding: 2px;
     border: none;
@@ -79,6 +110,7 @@ button {
     cursor: pointer;
     height: 35px;
     width: 30vh;
+    margin-top: 20px;
 }
 
 button:hover {
@@ -86,12 +118,13 @@ button:hover {
     scale: 1.1;
 }
 
-.signin-link a{
-    color:#FF3F00;
-    text-decoration: none;
+button:hover {
+    background-color: #0114a1;
+    scale: 1.05;
+    transition: 0.6s;
 }
 
 .signin-link a:hover {
     text-decoration: underline;
-    cursor:default;
+    cursor: default;
 }
